@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url(../static/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'), url(../static/Inter-Regular.ttf) format('truetype');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+
+.header-description {
+    background-color: #e9e9e9;
+}
+
+.header-description .content {
+    padding: 30px 0 104px 0;
+    position: relative;
+}
+
+.main-description .content {
+    display: flex;
+    justify-content: center;
+    padding: 116px 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.54) 0%, rgba(255, 255, 255, 0.24) 100%, rgba(255, 255, 255, 0.3) 100%);
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.text-container {
+    position: relative;
+}
+
+.advantages {
+    background: rgb(237 237 237);
+}
+
+.advantages .content {
+    padding: 110px 0;
+    display: flex;
+}
+
+.advantages-description .caption {
+    margin-bottom: 30px;
+    margin-right: 45px;
+}
+
+.advertising-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advertising-view h5 {
+    padding: 18px 28px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.54) 0%, rgba(255, 255, 255, 0.3) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    box-shadow: 0px 16px 30px -21px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.advantages-list li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.advantages-list li p {
+    display: inline;
+}
+
+.advantages-list li:before {
+    content: '\2022';
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    color: #03A9F4;
+    margin-right: 15px;
+}
+
+.advertising-container {
+    margin-top: 60px;
+    box-sizing: border-box;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    background: #F5F5F5;
+    border: 1px solid #E2D7D7;
+    box-shadow: 0px 11px 35px -19px rgba(18, 16, 28, 0.15);
+}
+
+.rectangle {
+    position: absolute;
+    width: 32px;
+    height: 14px;
+    left: 260px;
+    top: 7px;
+    background: #03A9F4;
+}
+
+.arrow {
+    position: absolute;
+    top: -48px;
+    right: 5px;
+}
+
+.description-items p {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1440px) {
+    .text-container {
+        width: 670px;
+    }
+
+    .main-description .caption {
+        width: 425px;
+    }
+
+    .main-description .description-items {
+        width: 392px;
+        margin-left: 83px;
+    }
+
+    .advantages-description .caption {
+        width: 430px;
+    }
+
+    .advertising-view h5 {
+        width: 500px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .text-container {
+        margin: 0 20px;
+    }
+
+    .advantages .content {
+        padding: 60px 0;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 20px;
+    }
+
+    .advantages-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages-description .caption {
+        min-width: 280px;
+        margin-right: 0;
+        margin-left: 40px;
+    }
+
+    .advertising-view h5 {
+        min-width: 280px;
+        padding: 18px 15px;
+    }
+
+    .advertising-view span {
+        line-height: normal;
+    }
+
+    .advantages-list ul {
+        padding: revert;
+        padding-right: 20px;
+    }
+
+    .header-description .content {
+        padding-bottom: 180px;
+    }
+
+    .main-description {
+        margin: 0 20px;
+    }
+
+    .main-description .content {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+
+    .main-description .caption {
+        min-width: 280px;
+        margin: 40px 0;
+    }
+
+    .main-description .description-items {
+        min-width: 280px;
+        margin: 0 auto;
+    }
+
+    .advertising-container {
+        height: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+    .advantages .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages-list ul {
+        margin-bottom: 30px;
+    }
+
+    .content {
+        margin: 0 30px;
+    }
+
+    .main-description .caption {
+        width: 340px;
+    }
+
+    .main-description .description-items {
+        width: 337px;
+    }
+}

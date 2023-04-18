@@ -1,0 +1,74 @@
+.poppins {
+    font-family: 'Poppins';
+}
+
+.inter {
+    font-family: 'Inter';
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+h5 {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+h5 span {
+    color: #03A9F4;
+    font-size: inherit;
+}
+
+span {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Inter';
+    line-height: 24px;
+}
+
+.colorPrimary {
+    color:  #12101C;
+}
+
+.colorSecondary {
+    color: #03A9F4;
+}
+
+.colorText {
+    color: #343240;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+.center {
+    text-align: center;
+}
+
+.textTransform {
+    text-transform: uppercase;
+}

@@ -1,0 +1,11 @@
+.headerImage {
+    position: absolute;
+    left: 640px;
+    top: 167px;
+}
+
+@media (min-width: 0px) and (max-width: 1439px) {
+    .headerImage {
+        display: none;
+    }
+}
